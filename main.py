@@ -1,5 +1,5 @@
 import sys
-from database import Database
+from database import Database  # type: ignore[reportMissingImports]
 
 def print_header(title):
     print("\n" + "=" * 50)
